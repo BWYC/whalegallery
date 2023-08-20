@@ -43,7 +43,7 @@ function Frames({ images, q = new THREE.Quaternion(), p = new THREE.Vector3() })
     clicked.current = ref.current.getObjectByName(params?.id)
     if (clicked.current) {
       clicked.current.parent.updateWorldMatrix(true, true)
-      clicked.current.parent.localToWorld(p.set(0, GOLDENRATIO / 2, 1.25))
+      clicked.current.parent.localToWorld(p.set(0, GOLDENRATIO / 1.5, 1.25))
       clicked.current.parent.getWorldQuaternion(q)
     } else {
       p.set(0, 0, 5.5)
@@ -51,8 +51,8 @@ function Frames({ images, q = new THREE.Quaternion(), p = new THREE.Vector3() })
     }
   })
   useFrame((state, dt) => {
-    easing.damp3(state.camera.position, p, 0.4, dt)
-    easing.dampQ(state.camera.quaternion, q, 0.4, dt)
+    easing.damp3(state.camera.position, p, 2, dt)
+    easing.dampQ(state.camera.quaternion, q, 1, dt)
   })
   return (
     <group
@@ -74,7 +74,7 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
   const isActive = params?.id === name
   useCursor(hovered)
   useFrame((state, dt) => {
-    image.current.material.zoom = 2 + Math.sin(rnd * 10000 + state.clock.elapsedTime / 3) / 0.8
+    image.current.material.zoom = 2 + Math.sin(rnd * 9000 + state.clock.elapsedTime / 5) / 0.8
     easing.damp3(image.current.scale, [0.85 * (!isActive && hovered ? 0.85 : 1), 0.9 * (!isActive && hovered ? 0.905 : 1), 1], 0.1, dt)
     easing.dampC(frame.current.material.color, hovered ? 'orange' : 'white', 0.1, dt)
   })

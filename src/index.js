@@ -25,17 +25,17 @@ const images = [
   {
     position: [-1.75, 0, 0.25],
     rotation: [0, Math.PI / 2.5, 0],
-    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(108).png'
+    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(109).png'
   },
   {
     position: [-2.15, 0, 1.5],
     rotation: [0, Math.PI / 2.5, 0],
-    url: 'https://bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca.ipfs.nftstorage.link/ipfs/bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca/OUGK%5B.png'
+    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(11).png'
   },
   {
     position: [-2, 0, 2.75],
     rotation: [0, Math.PI / 2.5, 0],
-    url: 'https://bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca.ipfs.nftstorage.link/ipfs/bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca/resada.png'
+    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(111).png'
   },
   // Right
   {
@@ -46,12 +46,17 @@ const images = [
   {
     position: [2.15, 0, 1.5],
     rotation: [0, -Math.PI / 2.5, 0],
-    url: 'https://bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca.ipfs.nftstorage.link/ipfs/bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca/idsd.png'
+    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(135).png'
   },
   {
     position: [2, 0, 2.75],
     rotation: [0, -Math.PI / 2.5, 0],
-    url: 'https://bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca.ipfs.nftstorage.link/ipfs/bafybeihfp5jeky3c75xrnfkbxl3hudcxk46b63axc3tyqqrii4u4gdx2ca/resada.png'
+    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(112).png'
+  },
+  {
+    position: [2, 0, 3.75],
+    rotation: [0, -Math.PI / 2.5, 0],
+    url: 'https://bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m.ipfs.nftstorage.link/ipfs/bafybeibww3urllxptzpctpt4nsd3lotafuq5v4tbwnqv3opgukxaofxn4m/z%20(112).png'
   }
 ]
 
